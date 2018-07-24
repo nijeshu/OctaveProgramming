@@ -1,0 +1,1 @@
+function [root] = falsePosition(a, b, IterationNum)func[x] = functionValue(double k)return (((1+k)^k) - k^4)endfunctionfor i = 1:NP = (a*func(b) + b*func(a)) / (func(b) -func(a));# Checking if the root is foundif (func(P) == 0)root = P;return root;elseif (func(P) * func(a) > 0)a = P;else b = P;endif endforendfunction
